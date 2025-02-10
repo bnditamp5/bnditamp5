@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>first page</title>
+  <link rel="stylesheet" href="page1.css">
+</head>
+<body><div id="image"></div>
+  <div class="text1">DO YOU WANT TO SEE COMEDY VIDEO?</div>
+  
+<body>
+  <button class="yes" onclick="delayedRedirect()">Yes</button>
+<p id="waitMessage" style="display: none;">Please wait, redirecting...</p>
+
+<script>
+  function delayedRedirect() {
+    document.getElementById("waitMessage").style.display = "block"; // Show waiting message
+    setTimeout(function() {
+      window.location.href = "nextpage.html"; // Redirect after 3 seconds
+    }, 3000);
+  }
+</script>
+  
+  <form action="last.html">
+  <button class="no" type="submit">No</button>
+</form>
+</body>
+</html>
