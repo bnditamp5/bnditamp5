@@ -1,0 +1,16 @@
+video {
+  width: 80%; /* Adjust size */
+  max-width: 800px;
+  display: block;
+  margin: auto;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+}
