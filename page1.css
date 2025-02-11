@@ -1,5 +1,3 @@
-/*{margin: 0; padding: 0}*/
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
@@ -14,6 +12,7 @@ body {
   font-family: cursive;
   top: 20px;
   font-weight: bolder;
+  font-size: 34px
 }
 
 .yes{
@@ -25,13 +24,13 @@ body {
   border-radius: 45px;
   box-shadow: 39px;
   position: fixed;
-  top: 100px;
+  top: 150px;
 }
 #image{
-   filter: blur(10px);
+   filter: blur(50px);
   background-image: url(page1.jpg);
   height: 650px;
-  width: fill;
+  width: ;
 }
 
 .no{
@@ -43,7 +42,7 @@ body {
   border-radius: 45px;
   box-shadow: 39px;
   position: fixed;
-  top: 100px;
+  top: 150px;
   left: 150px;
 }
 
