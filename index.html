@@ -7,17 +7,13 @@
   <div class="text1">DO YOU WANT TO SEE COMEDY VIDEO?</div>
   
 <body>
-  <button class="yes" onclick="delayedRedirect()">Yes</button>
-<p id="waitMessage" style="display: none;">Please wait, redirecting...</p>
+  <button class="yes" onclick="openPage()">Yes</button>
 
 <script>
-  function delayedRedirect() {
-    document.getElementById("waitMessage").style.display = "block"; // Show waiting message
-    setTimeout(function() {
-      window.location.href = "page2.html"; // Redirect after 3 seconds
-    }, 3000);
-  }
-</script>
+        function openPage() {
+            window.location.href = "page2.html"; // Redirect to the second page
+        }
+    </script>
   
   <form action="last.html">
   <button class="no" type="submit">No</button>
